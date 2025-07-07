@@ -1,46 +1,63 @@
+Here’s your updated `README.md` with the following improvements:
+
+* ✅ **npm badge**
+* ✅ **npm install instructions**
+* ✅ **npm + GitHub links**
+* ✅ Clean formatting with a professional open-source look
+
+---
+
+### ✅ Updated `README.md`
+
+````md
 # React Hook Form Custom Date Picker
 
-A beautiful, production-ready Date Picker component for React, built with [React Hook Form](https://react-hook-form.com/), [Tailwind CSS](https://tailwindcss.com/), and [Lucide React](https://lucide.dev/icons/). This component supports year/month dropdowns, calendar selection, form validation, error handling, and seamless integration with React Hook Form.
+[![npm version](https://img.shields.io/npm/v/react-hook-form-datepicker?color=%2300b894&label=npm&style=flat-square)](https://www.npmjs.com/package/react-hook-form-datepicker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Features
+A beautiful, production-ready Date Picker component for React, built with [React Hook Form](https://react-hook-form.com/), [Tailwind CSS](https://tailwindcss.com/), and [Lucide React](https://lucide.dev/icons/).
 
-- **Form Validation**: Automatic validation with error display.
-- **Controller Integration**: Seamless integration with React Hook Form's Controller.
-- **Error Handling**: Automatic error display with styling.
-- **Required Field Support**: Visual indicators for required fields.
-- **Clearable Dates**: Optional clear functionality.
-- **Date Range Validation**: Min/max date constraints.
-- **Beautiful UI**: Modern, accessible, and responsive design.
+This component supports year/month dropdowns, calendar selection, form validation, error handling, and seamless integration with React Hook Form.
 
-## Demo
+---
+
+## 🚀 Features
+
+- ✅ **Form Validation** – Integrated with React Hook Form
+- ✅ **Controller Support** – Use with RHF's Controller API
+- ✅ **Error Handling** – Auto error display with Tailwind styling
+- ✅ **Required Fields** – Shows required label and error state
+- ✅ **Clearable** – Option to allow clearing selected date
+- ✅ **Date Constraints** – Min and max date range support
+- ✅ **Modern UI** – Beautiful, accessible design
+
+---
+
+## 📦 Install via npm
+
+```bash
+npm install react-hook-form-datepicker
+````
+
+---
+
+## 🧪 Demo
 
 ![Date Picker Demo](demo.png)
 
-## Getting Started
+---
 
-### Installation
-
-Clone the repository and install dependencies:
-
-```sh
-git clone https://github.com/ahmerali1813/react-hook-form-datepicker.git
-cd react-hook-form-datepicker
-npm install
-```
-
-### Usage
-
-Import and use the `DatePicker` component in your form:
+## 🧑‍💻 Usage
 
 ```tsx
 import { useForm } from 'react-hook-form';
-import DatePicker from './components/DatePicker';
+import DatePicker from 'react-hook-form-datepicker';
 
 function MyForm() {
   const { control, handleSubmit } = useForm();
 
   return (
-    <form>
+    <form onSubmit={handleSubmit((data) => console.log(data))}>
       <DatePicker
         control={control}
         inputName="myDate"
@@ -56,20 +73,40 @@ function MyForm() {
 }
 ```
 
-### Props
+---
 
-See [`DatePickerProps`](src/types/datepicker.types.ts) for all available props.
+## 🔧 Props
 
-## Customization
+See [`DatePickerProps`](src/types/datepicker.types.ts) for a full list of supported props.
 
-- **Date Format**: Supports `dd/mm/yyyy`, `mm/dd/yyyy`, and `yyyy-mm-dd`.
-- **Styling**: Easily customizable via Tailwind CSS classes.
-- **Icons**: Uses Lucide React for icons.
+---
 
-## License
+## 🎨 Customization
 
-MIT
+* ✨ **Date Format**: Customize as `dd/mm/yyyy`, `mm/dd/yyyy`, `yyyy-mm-dd`
+* 🖌️ **Tailwind Classes**: Easily style with Tailwind
+* 🔧 **Icon Support**: Uses [Lucide React](https://lucide.dev/) icons
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 > Built with ❤️ using React, Tailwind CSS, and React Hook Form.
+
+---
+
+### 🔗 Useful Links
+
+* 🔸 **npm Package**: [https://www.npmjs.com/package/react-hook-form-datepicker](https://www.npmjs.com/package/react-hook-form-datepicker)
+* 🔸 **GitHub Repo**: [https://github.com/ahmerali1813/react-hook-form-datepicker](https://github.com/ahmerali1813/react-hook-form-datepicker)
+
+```
+
+---
+
+Let me know if you'd like a version with **shields.io GitHub stats**, or automatic **API prop table generation** using tools like `react-docgen`.
+```
