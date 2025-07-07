@@ -7,7 +7,6 @@ Here’s your updated `README.md` with the following improvements:
 
 ---
 
-# React Hook Form Custom Date Picker
 
 # React Hook Form DatePicker
 
