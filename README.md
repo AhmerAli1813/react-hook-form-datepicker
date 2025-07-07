@@ -1,13 +1,3 @@
-Here’s your updated `README.md` with the following improvements:
-
-* ✅ **npm badge**
-* ✅ **npm install instructions**
-* ✅ **npm + GitHub links**
-* ✅ Clean formatting with a professional open-source look
-
----
-
-
 # React Hook Form DatePicker
 
 [![npm version](https://img.shields.io/npm/v/react-hook-form-datepicker)](https://www.npmjs.com/package/react-hook-form-datepicker)
@@ -34,7 +24,7 @@ This component supports year/month dropdowns, calendar selection, form validatio
 
 ```bash
 npm install react-hook-form-datepicker
-````
+```
 
 ---
 
@@ -100,10 +90,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 * 🔸 **npm Package**: [https://www.npmjs.com/package/react-hook-form-datepicker](https://www.npmjs.com/package/react-hook-form-datepicker)
 * 🔸 **GitHub Repo**: [https://github.com/ahmerali1813/react-hook-form-datepicker](https://github.com/ahmerali1813/react-hook-form-datepicker)
-
-```
-
----
-
-Let me know if you'd like a version with **shields.io GitHub stats**, or automatic **API prop table generation** using tools like `react-docgen`.
-```
