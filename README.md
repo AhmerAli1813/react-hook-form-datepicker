@@ -14,7 +14,7 @@ A beautiful, production-ready Date Picker component for React, built with [React
 
 ## Demo
 
-![Date Picker Demo](demo-screenshot.png)
+![Date Picker Demo](demo.png)
 
 ## Getting Started
 
