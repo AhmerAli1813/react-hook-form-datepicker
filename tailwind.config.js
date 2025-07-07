@@ -1,16 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+module.exports = {
+ content: [
+  './src/**/*.{js,ts,jsx,tsx}',
+  './node_modules/react-hook-form-datepicker/**/*.{js,ts,jsx,tsx}', // 👈 ADD THIS
+], // ⬅️ scans your component files
   theme: {
-    extend: {
-      colors: {
-        primary: '#1d4ed8',
-        secondary: '#64748b',
-      },
-      fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
