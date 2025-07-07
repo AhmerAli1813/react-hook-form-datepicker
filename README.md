@@ -7,13 +7,11 @@ Here’s your updated `README.md` with the following improvements:
 
 ---
 
-### ✅ Updated `README.md`
-
-````md
 # React Hook Form Custom Date Picker
 
-[![npm version](https://img.shields.io/npm/v/react-hook-form-datepicker?color=%2300b894&label=npm&style=flat-square)](https://www.npmjs.com/package/react-hook-form-datepicker)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+# React Hook Form DatePicker
+
+[![npm version](https://img.shields.io/npm/v/react-hook-form-datepicker)](https://www.npmjs.com/package/react-hook-form-datepicker)
 
 A beautiful, production-ready Date Picker component for React, built with [React Hook Form](https://react-hook-form.com/), [Tailwind CSS](https://tailwindcss.com/), and [Lucide React](https://lucide.dev/icons/).
 
